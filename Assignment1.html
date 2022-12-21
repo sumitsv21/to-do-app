@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment1</title>
+    <link rel="stylesheet" href="ass1.css">
+    <script src="ass1.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+
+        <input style="width: 100vh; height : 5vh; background-color: rgb(255, 255, 255);"   type="text" name="" id="myInput" placeholder="Search" onkeyup="searchFunc()">
+    </div>
+    </body>
+    </body>
+    <table id="myTable">
+        <tr class="header">
+            <th style="width: 10%;">Product ID</th>
+            <th style="width: 20%;">Product Name</th>
+            <th style="width: 20%;">Product Color</th>
+            <th style="width: 20%;">Product Availability</th>
+            <th style="width: 30%;">Product Image</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Yoga Mat</td>
+            <td>Brown</td>
+            <td>In Stock</td>
+           <td><img src="https://cdn.shopify.com/s/files/1/0595/3011/7308/products/Original-Air-Cork-Yoga-Mat-Unrolled_1100x.jpg?v=1632326735" width="300" height="300" alt="Yoga Mat"/></td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Dumbbells</td>
+            <td>Black</td>
+            <td>In Stock</td>
+            <td><img src="https://m.media-amazon.com/images/I/51m15CMjp2L._SL1500_.jpg" width="300" height="300" alt="Dumbbells"/></td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Kettlebell</td>
+            <td>Black</td>
+            <td>Out of Stock</td>
+            <td><img src="https://m.media-amazon.com/images/I/81ienkLh4zL._SL1500_.jpg" width="300" height="300" alt="Kettlebell"/></td>
+            
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Skipping Rope</td>
+            <td>Black</td>
+            <td>In Stock</td>
+            <td><img src="https://cdn.shopify.com/s/files/1/0264/6900/7383/products/SF_F040_1800x1800.jpg?v=1585819846" width="300" height="300" alt="Skipping Rope"/></td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Excercise Bike</td>
+            <td>Yellow and Black</td>
+            <td>In Stock</td>
+            <td><img src="https://cdn.shopify.com/s/files/1/0477/1358/3267/products/Bikeonwhitewithipadnoticecopy_1518x.jpg?v=1643715468" width="300" height="300" alt="Excercise Bike"/></td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>Treadmill</td>
+            <td>Black</td>
+            <td>In Stock</td>
+            <td><img src="https://cdn.shopify.com/s/files/1/0477/1358/3267/products/flextread_img00_1068x.jpg?v=1663746940" width="300" height="300" alt="Treadmill"/></td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>Rowing Machine</td>
+            <td>Black</td>
+            <td>In Stock</td>
+            
+            
+            <td><img src="https://cdn.shopify.com/s/files/1/1311/6023/products/concept2_2000x2000.jpg?v=1662896880" width="300" height="300" alt="Rowing Machine"/></td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td>Gloves</td>
+            <td>Orange</td>
+            <td>In Stock</td>
+            <td><img src="https://www.healthklin.com/image/cache/catalog/PRODUCTIMAGES/hsglv4-750x750.jpeg" width="300" height="300" alt="Gloves"/></td>
+        </tr>
+        <tr>
+            <td>9</td>
+            <td>Camera</td>
+            <td>black</td>
+            <td>In Stock</td>
+            <td><img src="https://img2.gadgetsnow.com/gd/images/products/additional/large/G401887_View_1/electronics/digital-cameras/sony-a7-iii-full-frame-mirrorless-interchangeable-lens-camera-with-28-70mm-f3-5-5-6-oss-lens-.jpg" width="300" height="300" alt="Camera"/></td>
+        </tr>
+        <tr>
+            <td>10</td>
+            <td>Headphone</td>
+            <td>Brown</td>
+            <td>In Stock</td>
+            
+            <td><img src="https://www.marshallheadphones.com/dw/image/v2/BCQL_PRD/on/demandware.static/-/Sites-zs-master-catalog/default/dw95059394/images/marshall/headphones/major-iv/brown/mobile/pos-mobile-marshall-major-iv-brown-01.png?sw=1120&sh=1120&sm=fit" width="300" height="300" alt="Headphone"/></td>
+        </tr>
+        <tr>
+            <td>11</td>
+            <td>Mobile Phone</td>
+            <td>Blue</td>
+            <td>In Stock</td>
+            <td><img src="https://boip.in/61093-large_default/oneplus-9r-12gb-256gb-refurbished-very-good.jpg" width="300" height="300" alt="Mobile Phone"/></td>
+        </tr>
+        <tr>
+            <td>12</td>
+            <td>Suitcase</td>
+            <td>Purple</td>
+            <td>In Stock</td>
+            <td><img src="https://www.samsonite.in/dw/image/v2/AAWQ_PRD/on/demandware.static/-/Sites-Samsonite/default/dw0ca71eec/images/72h-dlx-spinner-exp-wob-in/hi-res/145889_3672_hi-res_FRONT34_1.jpg?sw=500&sh=750" width="300" height="300" alt="Suitcase"/></td>
+        </tr>
+        <tr>
+            <td>13</td>
+            <td>Shoes</td>
+            <td>Blue</td>
+            <td>Out of Stock</td>
+            <td><img src="https://rukminim1.flixcart.com/image/832/832/l432ikw0/shoe/r/a/x/-original-imagf255rjzc9xwh.jpeg?q=70" width="300" height="300" alt="Shoes"/></td>
+        </tr>
+        <tr>
+            <td>14</td>
+            <td>Wall Clock</td>
+            <td>Black and White</td>
+            <td>In Stock</td>
+            <td><img src="https://5.imimg.com/data5/SELLER/Default/2020/9/CR/KJ/FQ/79340086/whatsapp-image-2020-09-29-at-23-57-09-1000x1000.jpeg" width="300" height="300" alt="Wall Clock"/></td>
+        </tr>
+        <tr>
+            <td>15</td>
+            <td>Table</td>
+            <td>Brown</td>
+            <td>In Stock</td>
+            <td><img src="https://www.stylespafurniture.com/wp-content/uploads/2020/07/Study-table-with-open-shelves-1.jpg" width="300" height="300" alt="Table"/></td>
+            
+        </tr>
+        <tr>
+            <td>16</td>
+            <td>Chair</td>
+            <td>Black</td>
+            <td>In Stock</td>
+            <td><img src="https://www.ulcdn.net/images/products/497794/slide/666x363/Charles_Study_Chair_-_2_Axis_Adjustablea.jpg?1649835996" width="300" height="300" alt="Chair"/></td>
+        </tr>
+        <tr>
+            <td>17</td>
+            <td>Table Lamp</td>
+            <td>Brown</td>
+            <td>In Stock</td>
+            <td><img src="https://ii1.pepperfry.com/media/catalog/product/g/r/800x880/grey-fabric-designer-table-lamp-by-foziq-grey-fabric-designer-table-lamp-by-foziq-jz4jjk.jpg" width="300" height="300" alt="Table Laml"/></td>
+        </tr>
+        <tr>
+            <td>18</td>
+            <td>Glasses</td>
+            <td>Pink</td>
+            <td>In Stock</td>
+            <td><img src="https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/1325x636/9df78eab33525d08d6e5fb8d27136e95//l/i/blue-block-phone-&-computer-glasses:-pink-transparent-pink-full-rim-wayfarer-lenskart-blu-glasses-lb-e14058-c10_g_1824_13_july.jpg" width="300" height="300" alt="Glasses"/></td>
+        </tr>
+        <tr>
+            
+            <td>19</td>
+            <td>Router</td>
+            <td>Black</td>
+            <td>Out of Stock</td>
+            <td><img src="https://nationalpc.in/image/cache/catalog/product/Networking/ASUS/WiFi%206/RT-AX3000/ASUS-RT-AX3000-Dual-Band-WiFi-6-MU-MIMO-Router-1260x1260.jpg.webp" width="300" height="300" alt="Router"/></td>
+        </tr>
+        <tr>
+            <td>20</td>
+            <td>Flower Vase</td>
+            <td>Gold</td>
+            <td>In Stock</td>
+            <td><img src="https://www.ikea.com/in/en/images/products/uppgjord-vase-brass-colour__0715759_pe730602_s5.jpg?f=xl" width="300" height="300" alt="Flower Vase"/></td>
+
+        </tr>
+        <tr>
+            <td>21</td>
+            <td>Flower Vase</td>
+            <td>Gold</td>
+            <td>In Stock</td>
+            <td><img src="https://www.ikea.com/in/en/images/products/uppgjord-vase-brass-colour__0715759_pe730602_s5.jpg?f=xl" width="300" height="300" alt="Flower Vase"/></td>
+            
+        </tr>
+        <tr>
+            <td>22</td>
+            <td>Flower Vase</td>
+            <td>Gold</td>
+            <td>In Stock</td>
+            <td><img src="https://www.ikea.com/in/en/images/products/uppgjord-vase-brass-colour__0715759_pe730602_s5.jpg?f=xl" width="300" height="300" alt="Flower Vase"/></td>
+            
+        </tr>
+        <tr>
+            <td>23</td>
+            <td>Flower Vase</td>
+            <td>Gold</td>
+            <td>In Stock</td>
+            <td></td><img src="https://www.ikea.com/in/en/images/products/uppgjord-vase-brass-colour__0715759_pe730602_s5.jpg?f=xl" width="300" height="300" alt="Flower Vase"/></td>
+            
+        </tr>
+        <tr>
+            <td>24</td>
+            <td>Flower Vase</td>
+            <td>Gold</td>
+            <td>In Stock</td>
+            <td><img src="https://www.ikea.com/in/en/images/products/uppgjord-vase-brass-colour__0715759_pe730602_s5.jpg?f=xl" width="300" height="300" alt="Flower Vase"/></td>
+            
+        </tr>
+        <tr>
+            <td>25</td>
+            <td>Flower Vase</td>
+            <td>Gold</td>
+            <td>In Stock</td>
+            <td><img src="https://www.ikea.com/in/en/images/products/uppgjord-vase-brass-colour__0715759_pe730602_s5.jpg?f=xl" width="300" height="300" alt="Flower Vase"/></td>
+            
+        </tr>
+      </table> 
+
+  
+
+
+
+
+
+
+
+</body>
+</html>
